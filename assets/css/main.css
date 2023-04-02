@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.calc {
+  background-color: aqua;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.inp .num1 {
+  width: 500px;
+  height: 35px;
+  margin: 10px 45px;
+  padding-left: 10px;
+}
+.inp .num2 {
+  width: 500px;
+  height: 35px;
+  margin: 10px 20px;
+  padding-left: 10px;
+}
+
+.one {
+  display: flex;
+}
+.one #plus {
+  background-color: green;
+  width: 270px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 140px;
+  margin-left: 15px;
+}
+.one #minus {
+  background-color: red;
+  width: 270px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 140px;
+  margin-left: 10px;
+}
+.one #multiplication {
+  background-color: blue;
+  width: 270px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 8px 140px;
+  margin-left: 10px;
+}
+.one #divided {
+  background-color: yellow;
+  width: 270px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 140px;
+  margin-left: 10px;
+}
+
+.end #result {
+  width: 600px;
+  height: 35px;
+  border-radius: 40px;
+  margin-left: 300px;
+  margin-top: 50px;
+  padding-left: 10px;
+}/*# sourceMappingURL=main.css.map */
